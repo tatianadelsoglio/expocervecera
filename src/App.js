@@ -1,5 +1,6 @@
 import "./App.css";
 import logo from "./logoExpoCe.jpg";
+import { FacebookFilled, InstagramFilled, TwitterOutlined, LinkedinFilled, YoutubeFilled } from "@ant-design/icons"
 
 function App() {
   return (
@@ -36,10 +37,13 @@ function App() {
           <p>Telefono: 3535512412</p>
           <p>Ruta 158 km 237</p>
           <p>Villa General Belgrano, Córdoba</p>
-          <p>Ruta 158 km 237</p>
         </div>
         <div className="redes">
-
+          <FacebookFilled className="icono" />
+          <InstagramFilled className="icono" />
+          <TwitterOutlined className="icono" />
+          <LinkedinFilled className="icono" />
+          <YoutubeFilled className="icono" />
         </div>
       </footer>
     </div>
