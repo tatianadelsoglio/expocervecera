@@ -8,7 +8,7 @@ function App() {
         <div className="div-menu">
           <a>Novedades</a>
           <a>Sponsors</a>
-          <a>Ubicacion</a>
+          <a>Ubicación</a>
           <a>Contacto</a>
         </div>
       </header>
@@ -24,10 +24,13 @@ function App() {
       </body>
       <footer className="footer">
         <div className="contacto">
-          <p>Email: asdgasdga@cerveza.com</p>
-          <p>Telefono: 3535512412</p>
-          <p>Ruta 158 km 237</p>
+          <p>Email: info@expocervecera.com.ar</p>
+          <p>Teléfono: +54 9 3536559021</p>
           <p>Villa General Belgrano, Córdoba</p>
+          <p>Ruta 158 km 237</p>
+        </div>
+        <div className="redes">
+
         </div>
       </footer>
     </div>
