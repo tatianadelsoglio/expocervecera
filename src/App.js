@@ -37,8 +37,8 @@ function App() {
       </body>
       <footer className="footer">
         <div className="contacto" id="contacto">
-          <p>Email: asdgasdga@cerveza.com</p>
-          <p>Telefono: 3535512412</p>
+          <p>Email: info@expocervecera.com.ar</p>
+          <p>Telefono: +54 9 3536559021</p>
           <p>Ruta 158 km 237</p>
           <p>Villa General Belgrano, Córdoba</p>
         </div>
