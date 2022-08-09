@@ -7,8 +7,8 @@
 }
 
 .header {
-  background-color: #3D2500;
-  height: 8vh;
+  background: linear-gradient(rgba(163, 124, 65, 0.9),rgba(61, 37, 0, 1));
+  height: 15vh;
   display: flex;
   flex: row wrap;
   align-content: center;
@@ -18,12 +18,19 @@
   color: white;
 }
 
+
 .body {
   background-color: #A37C41;
   width: 100%;
   display: flex;
   flex-direction: column;
   color: white;
+}
+
+.header_content{
+  width: 80vw;
+  display: flex;
+  flex: row;
 }
 
 .div-logo{
@@ -53,7 +60,8 @@ section {
   display: flex;
   flex: row wrap;
   justify-content: center;
-  height: 15vh;
+  align-items: center;
+  height: 20vh;
   width: 100%;
   background-color: #3D2500;
 }
@@ -69,4 +77,17 @@ section {
   font-size: 0.65rem;
   height: 100%;
 
+}
+
+a{
+  outline: none;
+  text-decoration: none;
+  color:white;
+}
+
+.div_sponsors{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
