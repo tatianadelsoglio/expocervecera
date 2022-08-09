@@ -7,7 +7,7 @@
 }
 
 .header {
-  background: linear-gradient(rgba(163, 124, 65, 0.9),rgba(61, 37, 0, 1));
+  background-color: white;
   height: 15vh;
   display: flex;
   flex: row wrap;
@@ -15,12 +15,13 @@
   justify-content: center;
   font-size: 0.8rem;
   font-weight: 600;
-  color: white;
+  color: rgba(61, 37, 0, 1);
 }
 
 
 .body {
-  background-color: #A37C41;
+  background: linear-gradient(rgba(163, 124, 65, 0.9),rgba(61, 37, 0, 1));
+  /* background-color: #A37C41; */
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -28,17 +29,22 @@
 }
 
 .header_content{
-  width: 80vw;
+  width: 90vw;
   display: flex;
   flex: row;
+  
 }
 
 .div-logo{
+  display: flex;
   height: 100%;
   width: 20vw;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 
 .div-menu{
+  margin-left: 10%;
   height: 100%;
   width: 80vw;
   display: flex;
@@ -82,7 +88,7 @@ section {
 a{
   outline: none;
   text-decoration: none;
-  color:white;
+  color: rgba(61, 37, 0, 1);
 }
 
 .div_sponsors{

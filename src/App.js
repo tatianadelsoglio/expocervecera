@@ -10,6 +10,7 @@ function App() {
             <img src={logo} width="250px" height="90px" alt="logo-expoCe"/>
           </div>
           <div className="div-menu">
+          <a href="#mision">Misión</a>  
             <a href="#novedades">Novedades</a>            
             <a href="#ubicacion">Ubicación</a>
             <a href="#sponsors">Sponsors</a>
@@ -19,6 +20,10 @@ function App() {
         </div>
       </header>
       <body className="body">
+      <section className="mision" id="mision">
+          <div className="mitad">Novedades 1</div>
+          <div className="mitad">Novedades 2</div>
+        </section>
         <section className="novedades" id="novedades">
           <div className="mitad">Novedades 1</div>
           <div className="mitad">Novedades 2</div>
