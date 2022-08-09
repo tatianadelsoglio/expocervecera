@@ -69,7 +69,7 @@ section {
   align-items: center;
   height: 20vh;
   width: 100%;
-  background-color: #3D2500;
+  background-color: #FFAA00;
 }
 
 .mitad {
@@ -79,8 +79,14 @@ section {
 }
 
 .contacto {
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  justify-content: center;
+  align-items: center;
   color: white;
   font-size: 0.65rem;
+  font-weight: 600;
   height: 100%;
 
 }
