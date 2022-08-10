@@ -552,17 +552,17 @@ ul.padding_left2 li img {padding: 0px 10px 0px 30px;}
 
 .main_form {
      padding: 50px 50px;
-     border: #046c58 solid 1px;
+     border: #e1ae5a solid 1px;
      margin: 0px 80px;
 }
 
 .contact .main_form .form_contril {
-     border: #046c58 solid 1px;
+     border: #e1ae5a solid 1px;
      margin-bottom: 20px;
      width: 100%;
      height: 45px;
      background: #fff;
-     color: #046c58;
+     color: black;
      font-size: 17px;
      border-top: 0;
      border-right: 0;
@@ -570,12 +570,12 @@ ul.padding_left2 li img {padding: 0px 10px 0px 30px;}
 }
 
 .contact .main_form .textarea {
-     border: #046c58 solid 1px;
+     border: #e1ae5a solid 1px;
      margin-bottom: 20px;
      width: 100%;
      height: 60px;
      background: #fff;
-     color: #046c58;
+     color: black;
      font-size: 17px;
      border-top: 0;
      border-right: 0;
@@ -597,14 +597,14 @@ ul.padding_left2 li img {padding: 0px 10px 0px 30px;}
 }
 
 .contact .main_form .send_btn:hover {
-     background-color: #046c58;
+     background-color: #e1ae5a;
      transition: ease-in all 0.5s;
      color: #fff;
      border-radius: 26px;
 }
 
 #contact *::placeholder {
-     color: #046c58;
+     color:black;
      opacity: 1;
 }
 
