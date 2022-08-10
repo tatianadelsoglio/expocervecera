@@ -467,13 +467,23 @@ ul.padding_left2 li img {padding: 0px 10px 0px 30px;}
 
 
 .Testimonial {
-     background: url(../images/banner-02-06.png);
+     background: url(../images/banner-02-09.png);
      /* background: linear-gradient(rgba(225, 174, 90, 0.8),rgba(225, 174, 90, 0.8)); */
      background-repeat: no-repeat;
     padding: 60px 0px;
      background-position: center;
      background-size: 100% 100%;
+     display: flex;
+     flex:row;
+     justify-content: space-evenly;
 }
+
+.column{
+     display: flex;
+     flex: column;
+     justify-content: space-evenly;
+}
+
 .Testimonial .titlepage {text-align: left; padding-bottom: 15px;}
 .Testimonial .titlepage h2 {
      color: #fff;
