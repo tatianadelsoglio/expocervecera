@@ -309,7 +309,7 @@ button {
 /*--------------------------------------------------------------------- layout new css ---------------------------------------------------------------------*/
 
 .head_top {
-     background: url(../images/banner1.png);
+     background: url(../images/banner-02-07.png);
      background-size: 100% 100%;
      background-repeat: no-repeat;
      background-position: center;
@@ -338,7 +338,8 @@ button {
 }
 
 .text-bg h1 {
-     color: #02fee5;
+     color: #e1ae5a;
+     /* color: #02fee5; */
      font-size: 75px;
      line-height: 110px;
      font-weight: bold;
@@ -640,7 +641,8 @@ ul.padding_left2 li img {padding: 0px 10px 0px 30px;}
 /** footer **/
 
 .multi {
-     color: #046c58;
+     color: #e1ae5a;
+     /* color: #046c58; */
 }
 
 .footer {
@@ -700,14 +702,16 @@ ul.social_icon li a {
 }
 
 ul.social_icon li a:hover {
-     background: #046c58;
+     /* background: #046c58; */
+     background:#e1ae5a;
      color: #fff;
 
 }
 
 .copyright {
      padding: 20px 0px;
-     background: #046c58;
+     background:#b27c25;
+     /* background: #046c58; */
      margin-top: 50px;
      position: relative;
 }
