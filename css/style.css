@@ -337,6 +337,14 @@ button {
      text-align: left;
 }
 
+.subtitulo-cabecera{
+     color: #fff;
+}
+
+.subtitulo-p{
+     margin-top: -25px;
+}
+
 .text-bg h1 {
      color: #e1ae5a;
      /* color: #02fee5; */
@@ -365,7 +373,7 @@ button {
 }
 
 .text-bg a:hover {
-     background-color: #02fee5;
+     background-color: #e1ae5a;
      color: #000;
      transition: ease-in all 0.5s;
      border-radius: 26px;
@@ -408,10 +416,10 @@ button {
 .awesome {padding-bottom:40px; font-size: 26px; line-height: 38px; color:#333334; } 
 .our_text_box p {padding-bottom: 50px; color: #3c3c3c; display: inline-block; } 
 .flot_left1 {float: left; padding: 0;} 
-ul.like {float: right;}
+/* ul.like {float: right;} */
 ul.like li {display: inline-block;}
 ul.like li a {display: inline-block; color: #3c3c3c;}
-ul.like li img {padding: 0px 10px 0px 40px;}
+ul.like li img {padding: 0px 10px 0px 40px; margin-left: -50px; margin-right: -15px;}
 
 /** secend section **/
 
