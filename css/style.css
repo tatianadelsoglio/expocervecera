@@ -419,7 +419,7 @@ button {
 /* ul.like {float: right;} */
 ul.like li {display: inline-block;}
 ul.like li a {display: inline-block; color: #3c3c3c; margin-top: 20px;}
-ul.like li img {padding: 0px 10px 0px 40px; margin-left: -50px; margin-right: -15px;}
+ul.like li img {padding: 0px 10px 0px 40px; margin-left: -50px; margin-right: -8px;}
 
 /** secend section **/
 
@@ -742,4 +742,3 @@ ul.social_icon li a:hover {
 
 
 /** end footer **/
-
