@@ -413,7 +413,7 @@ button {
 .our_text_box {padding: 1px 30px 1px 1px;}
 .our_img figure {margin: 0;}
 .our_img figure img {width: 100%;}
-.awesome {padding-bottom:40px; font-size: 26px; line-height: 38px; color:#333334; } 
+.awesome {padding-bottom:30px; font-size: 26px; line-height: 20px; color:#333334; font-weight: 500;} 
 .our_text_box p {padding-bottom: 10px; color: #3c3c3c; display: inline-block; } 
 .flot_left1 {float: left; padding: 0;} 
 /* ul.like {float: right;} */
@@ -449,7 +449,11 @@ ul.padding_left2 li img {padding: 0px 10px 0px 30px;}
 
 /** end three section **/
 
-
+li {
+     color: white;
+     font-size: 2rem;
+     font-weight: 400;
+}
 /** end for section **/
 
 .magna_top90 {margin-top: 90px;}
