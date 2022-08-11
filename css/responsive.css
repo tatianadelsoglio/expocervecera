@@ -365,4 +365,9 @@
   .subtitulo {
     font-size: 0.8rem;
   }
+
+  .Testimonial{
+    flex: column wrap;
+
+  }
 }
