@@ -104,7 +104,6 @@ h6 {
      -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
      box-sizing: border-box;
-     overflow-x: hidden;
 }
 
 h1 a,
@@ -873,4 +872,8 @@ figure {
      text-align: right;
      bottom: 30%;
      right: 1rem;
+}
+
+.row {
+     margin: 0px;
 }
