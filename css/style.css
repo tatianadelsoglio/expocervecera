@@ -477,8 +477,7 @@ ul.padding_left2 li img {padding: 0px 10px 0px 30px;}
      display: flex;
      flex:row;
      justify-content: space-evenly;
-     border-top: solid 1px rgba(225, 174, 90, 0.8);
-     border-bottom: solid 1px rgba(225, 174, 90, 0.8);
+
 }
 
 .column{
