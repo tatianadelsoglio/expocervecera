@@ -104,6 +104,10 @@
   .column {
     margin: 0.5rem 0px;
   }
+ 
+  .col{
+    flex-grow: 0.5;
+  }
 
   .head_top {
     background: url(../images/banner-02-09.png);
@@ -258,6 +262,10 @@
   }
   .Testimonial_box i::after {
     content: inherit;
+  }
+
+  .col {
+    flex-grow: 0.5;
   }
 
   .padding_top3 {
