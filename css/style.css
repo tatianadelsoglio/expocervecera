@@ -870,7 +870,18 @@ figure {
      position:absolute;
      text-align: right;
      bottom: 30%;
-     right: 1rem;
+     right: 3rem;
+}
+
+.titulo-ubicacion{
+     color: #fff;
+     font-size: 50px;
+     line-height: 50px;
+     font-weight: bold;
+}
+
+.subtitulo-ubicacion{
+     font-weight: bold;
 }
 
 .row {
