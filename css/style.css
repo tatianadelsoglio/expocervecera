@@ -795,7 +795,8 @@ ul.social_icon li a:hover {
 }
 
 .imagen {
-     object-fit: fill;
+     width: 100%;
+     height: 100%;
 }
 
 .contenedor-ubicacion {
@@ -803,8 +804,72 @@ ul.social_icon li a:hover {
      flex: row wrap;
      justify-content: center;
      align-items: center;
+     height: 450px;
+     overflow: hidden;
 }
 
 .columna-ubicacion {
      width: 50%;
+     height: 100%;
+     overflow: hidden;
+     padding: 0px;
+}
+
+.posicion-text-ubicacion {
+     position: absolute;
+     bottom: 5px;
+     left: 5px;
+     width: 100%;
+     height: 100%;
+     opacity: 1;
+}
+
+figure {
+     margin: 0px;
+     height: 100%;
+     width: 100%;
+     overflow: hidden;
+}
+
+.figura {
+     opacity: 0.75;
+}
+
+.h1-octubre {
+     color: #3D2500;
+     font-size: 1rem;
+     font-weight: 500;
+     margin-top: 1vh;
+     padding: 0px;
+}
+
+.span-belgrano {
+     color: #3D2500 ; 
+     font-size: 2rem;
+     font-weight: 500;
+     margin-top: 1vh;
+     padding: 0px;
+}
+
+.subtitulo-ubicacion {
+     color: #3D2500;
+     font-size: 1.5rem;
+     font-weight: 500;
+     margin-top: 1vh;
+     padding: 0px;
+}
+
+.subtitulo {
+     color: #3D2500;
+     font-size: 1rem;
+     font-weight: 500;
+     margin-top: 1vh;
+     padding: 0px;
+}
+
+.caja-texto {
+     position:absolute;
+     text-align: right;
+     bottom: 30%;
+     right: 1rem;
 }

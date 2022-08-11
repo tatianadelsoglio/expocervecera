@@ -57,6 +57,42 @@
   .Testimonial .titlepage {
     padding-left: 60px;
   }
+
+  .contenedor-ubicacion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .columna-ubicacion {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    padding: 0px;
+  }
+
+  .caja-texto {
+    position: absolute;
+    text-align: right;
+    bottom: 1rem;
+    right: 2rem;
+  }
+
+  .h1-octubre {
+    font-size: 0.8rem;
+  }
+
+  .span-belgrano {
+    font-size: 1.6rem;
+  }
+
+  .subtitulo-ubicacion {
+    font-size: 1.2rem;
+  }
+
+  .subtitulo {
+    font-size: 0.8rem;
+  }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
@@ -145,6 +181,42 @@
   .navigation.navbar-dark .navbar-toggler-icon {
     background: url(../images/menu_icon.png);
     background-repeat: no-repeat;
+  }
+
+  .contenedor-ubicacion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .columna-ubicacion {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    padding: 0px;
+  }
+
+  .caja-texto {
+    position: absolute;
+    text-align: right;
+    bottom: 1rem;
+    right: 2rem;
+  }
+
+  .h1-octubre {
+    font-size: 0.8rem;
+  }
+
+  .span-belgrano {
+    font-size: 1.6rem;
+  }
+
+  .subtitulo-ubicacion {
+    font-size: 1.2rem;
+  }
+
+  .subtitulo {
+    font-size: 0.8rem;
   }
 }
 
@@ -254,5 +326,41 @@
   .navigation.navbar-dark .navbar-toggler-icon {
     background: url(../images/menu_icon.png);
     background-repeat: no-repeat;
+  }
+
+  .contenedor-ubicacion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .columna-ubicacion {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    padding: 0px;
+  }
+
+  .caja-texto {
+    position: absolute;
+    text-align: right;
+    bottom: 0rem;
+    right: 2rem;
+  }
+
+  .h1-octubre {
+    font-size: 0.8rem;
+  }
+
+  .span-belgrano {
+    font-size: 1.6rem;
+  }
+
+  .subtitulo-ubicacion {
+    font-size: 1.2rem;
+  }
+
+  .subtitulo {
+    font-size: 0.8rem;
   }
 }
