@@ -567,42 +567,47 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <form class="main_form">
+            <form class="main_form" method="post" action="index.php">
               <div class="row">
                 <div class="col-md-12">
                   <input
+                    id="nombre"
                     class="form_contril"
-                    placeholder="Nombre "
+                    placeholder="Nombre"
                     type="text"
-                    name="Name "
+                    name="nombre"
                   />
                 </div>
                 <div class="col-md-12">
                   <input
+                  id="telefono"
                     class="form_contril"
                     placeholder="Número de Teléfono"
                     type="text"
-                    name=" Phone Number"
+                    name="telefono"
+
                   />
                 </div>
                 <div class="col-md-12">
                   <input
+                    id="email"
                     class="form_contril"
                     placeholder="Email"
                     type="text"
-                    name="Email"
+                    name="email"
                   />
                 </div>
                 <div class="col-md-12">
                   <textarea
+                    id="mensaje"
                     class="textarea"
                     placeholder="Comentario"
                     type="text"
-                    name="Message"
+                    name="mensaje"
                   ></textarea>
                 </div>
                 <div class="col-sm-12">
-                  <button class="send_btn">Enviar</button>
+                  <button type="submit" class="send_btn">Enviar</button>
                 </div>
               </div>
             </form>
