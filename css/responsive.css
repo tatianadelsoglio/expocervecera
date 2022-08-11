@@ -90,6 +90,11 @@
   .column {
     margin: 0px 0.5rem;
   }
+
+  .col-sm-3{
+    flex-grow: 4;
+
+  }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
@@ -105,8 +110,9 @@
     margin: 0.5rem 0px;
   }
  
-  .col{
-    flex-grow: 0.5;
+  .col-sm-3{
+    flex: 0 0 25%;
+    max-width: 100%;
   }
 
   .head_top {
