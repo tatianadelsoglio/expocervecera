@@ -3,7 +3,8 @@ $nombre = $_POST['nombre'];
 $telefono = $_POST['telefono']
 $email = $_POST['email'];
 $mensaje = $_POST['mensaje'];
-$para = 'info@expocervecera.com.ar';
+// $para = 'info@expocervecera.com.ar';
+$para = 'tatianadelsoglio96@gmail.com';
 $titulo = 'Mensaje Web ExpoCervecera';
  
 $msjCorreo = "Nombre: $nombre\n E-Mail: $email\n Mensaje:\n $mensaje";
