@@ -74,10 +74,11 @@
     font-size: 0.8rem;
   }
 
-  .span-belgrano {
+  .titulo-ubicacion{
     font-size: 1.6rem;
+    line-height: 1.6rem;
+    margin-bottom: -1rem;
   }
-
   .subtitulo-ubicacion {
     font-size: 1.2rem;
   }
@@ -224,8 +225,10 @@
     font-size: 0.8rem;
   }
 
-  .span-belgrano {
+  .titulo-ubicacion{
     font-size: 1.6rem;
+    line-height: 1.6rem;
+    margin-bottom: -1rem;
   }
 
   .subtitulo-ubicacion {
@@ -392,8 +395,9 @@
     font-size: 0.8rem;
   }
 
-  .span-belgrano {
+  .titulo-ubicacion{
     font-size: 1.6rem;
+    line-height: 1.6rem;
   }
 
   .subtitulo-ubicacion {

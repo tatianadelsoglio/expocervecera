@@ -913,14 +913,6 @@ figure {
   padding: 0px;
 }
 
-.span-belgrano {
-  color: #3d2500;
-  font-size: 2rem;
-  font-weight: 500;
-  margin-top: 1vh;
-  padding: 0px;
-}
-
 .subtitulo-ubicacion {
   color: #3d2500;
   font-size: 1.5rem;
@@ -939,14 +931,16 @@ figure {
 
 .caja-texto {
   position: absolute;
+  display: flex;
+  flex-direction: column;
   text-align: right;
-  bottom: 30%;
+  bottom: 20%;
   right: 3rem;
 }
 
 .titulo-ubicacion {
   color: #fff;
-  font-size: 2rem;
+  font-size: 3rem;
   line-height: 50px;
   font-weight: bold;
 }
