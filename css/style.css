@@ -106,6 +106,24 @@ h6 {
      box-sizing: border-box;
 }
 
+::-webkit-scrollbar {
+     width: 10px;
+}
+
+::-webkit-scrollbar-track {
+     background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+     background: #3D2500;
+}
+
+::-webkit-scrollbar-thumb:hover {
+     background: #e1ae5a;
+}
+
+
+
 h1 a,
 h2 a,
 h3 a,
