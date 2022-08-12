@@ -697,6 +697,7 @@ ul.padding_left2 li img {
   float: right;
   margin-top: 2rem;
   border-radius: 10px;
+  border: none;
   margin-bottom: 2rem;
 }
 
@@ -705,6 +706,7 @@ ul.padding_left2 li img {
   color: #000;
   transition: ease-in all 0.5s;
   border-radius: 26px;
+  border: none;
 }
 
 #contact *::placeholder {
