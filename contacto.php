@@ -16,6 +16,8 @@ if(isset($_POST['email'])) {
     die();
     }
 
+    $email_from = $_POST['email'];
+
     $email_message = "Detalles del formulario de contacto:\n\n";
     $email_message .= "Nombre: " . $_POST['nombre'] . "\n";
     $email_message .= "E-mail: " . $_POST['telefono'] . "\n";
