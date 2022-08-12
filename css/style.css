@@ -422,9 +422,6 @@ button {
 ul.like li {display: inline-block;}
 ul.like li a {display: inline-block; color: #3c3c3c; margin-top: 20px; font-size: 18px;}
 ul.like li img {padding: 0px 10px 0px 40px; margin-left: -50px; margin-right: -8px; margin-top: -5px;}
-.our_text_box li{
-     list-style: inside;
-}
 
 /** secend section **/
 
@@ -800,10 +797,7 @@ ul.social_icon li a:hover {
      height: 100%;
 }
 
-.divisor-columnas li{
-     list-style: inside;
-     color: gray;
-}
+
 
 .ubicacion {
      margin-top: 5rem;
