@@ -1,5 +1,5 @@
 <?php
-if(isset($_POST['email'])) {
+if(isset($_POST['enviar'])) {
 
     // Debes editar las próximas dos líneas de código de acuerdo con tus preferencias
     $email_to = "tatianadelsoglio96@gmail.com";
@@ -16,7 +16,7 @@ if(isset($_POST['email'])) {
     die();
     }
 
-    $email_from = $_POST['email'];
+    // $email_from = $_POST['email'];
 
     $email_message = "Detalles del formulario de contacto:\n\n";
     $email_message .= "Nombre: " . $_POST['nombre'] . "\n";
