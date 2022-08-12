@@ -255,6 +255,10 @@
     height: 100%;
     object-fit: cover;
   }
+
+  .limite-altura {
+    height: 55vh;
+  }
 }
 
 @media (max-width: 575px) {
@@ -453,4 +457,16 @@
   object-fit: cover;
 }
 
+.div_column_img {
+  /* width: 300px; */
+  height: 60px;
+}
+
+.img-sponsor {
+  height: 60px;
+}
+
+.limite-altura {
+  height: 35vh;
+}
 }
