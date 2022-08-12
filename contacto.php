@@ -23,7 +23,7 @@
     $email = $_POST['email'];
     $mensaje = $_POST['mensaje'];
 
-    $to = "tatianadelsoglio96@gmail.com";
+    $to = "info@expocervecera.com.ar";
     $subject = "Contacto desde el sitio web";
 
     $headers = 'From: '.$email."\r\n";
@@ -44,8 +44,9 @@
 
     mail($to, $subject, utf8_decode($message), $headers);
 
+    echo "¡El mensaje se ha enviado con éxito!";
 
-    header("Location:index.html");
+    // header("Location:index.html");
 
     // Ahora se envía el e-mail usando la función mail() de PHP
 
