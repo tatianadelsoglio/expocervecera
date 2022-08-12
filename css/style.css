@@ -792,6 +792,12 @@ ul.social_icon li a:hover {
 
 .primera-columna {
      padding-right: 1.5rem;
+     line-height: 5em;
+}
+
+.column-perfil{
+     width: 100%;
+     height: 100%;
 }
 
 .divisor-columnas li{
@@ -903,12 +909,8 @@ figure {
      margin: 0px;
 }
 
-.div_ancho{
-     width: 80%;
-}
-
-.our_text_box{
-     width: 150%;
+.primera-columna li {
+     line-height: 1.5em;
 }
 
 .p-ubicacion{
@@ -919,3 +921,4 @@ figure {
 .october{
      font-size: 2rem;
 }
+

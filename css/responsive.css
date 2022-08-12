@@ -395,4 +395,16 @@
   .col-md-12 {
     padding: 0px;
   }
+  .primera-columna {
+    padding-right: 2rem;
+}
+
+.primera-columna p {
+  font-size: 1em;
+}
+
+.column-perfil{
+    width: 400px;
+    height: 100%;
+}
 }
