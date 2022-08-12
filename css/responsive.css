@@ -229,6 +229,15 @@
   .subtitulo {
     font-size: 0.8rem;
   }
+
+  /* .logo img{
+    width: 15rem;
+  }
+
+  .div_column_img img{
+    width: 25rem;
+  } */
+
 }
 
 @media (max-width: 575px) {
@@ -407,4 +416,11 @@
     width: 400px;
     height: 100%;
 }
+
+/* .logo img{
+  width: 12rem;
+}
+.div_column_img img{
+  width: 15rem;
+} */
 }
