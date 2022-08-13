@@ -402,7 +402,7 @@ button {
 
 .titlepage {
   text-align: center;
-  padding-bottom: 60px;
+  padding-bottom: 3rem;
 }
 
 .titlepage h2 {
@@ -581,10 +581,6 @@ ul.padding_left2 li img {
 .sponsors {
   margin-top: 5rem;
   margin-bottom: -1rem;
-}
-
-.ubicacion {
-  margin-top: 7rem;
 }
 
 .Testimonial_box i {
@@ -847,6 +843,7 @@ ul.social_icon li a:hover {
 .divisor-columnas {
   display: flex;
   flex-direction: row;
+  width: 100%;
 }
 
 .primera-columna {
@@ -863,7 +860,7 @@ ul.social_icon li a:hover {
 }
 
 .column-perfil {
-  width: 100%;
+  width: 50%;
   height: 100%;
 }
 
@@ -1019,7 +1016,7 @@ figure {
   transition: ease-in all 0.5s;
   margin-top: 2rem;
   border-radius: 10px;
-  margin-bottom: 2rem;
+  margin-bottom: 3vh;
 }
 
 .text-bg-comunidad a:hover {
@@ -1049,7 +1046,7 @@ figure {
 }
 
 .img-expositores {
-  height: 50vh;
+  height: 45vh;
 }
 
 .p-expositores {
