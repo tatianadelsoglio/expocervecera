@@ -7,7 +7,6 @@
 
 @media (min-width: 992px) and (max-width: 1199px) {
   .awesome {
-    font-size: 19px;
     padding-bottom: 20px;
     line-height: 25px;
   }
@@ -30,7 +29,7 @@
   }
 
   .img-expositores {
-    height: 40vh;
+    height: 35vh;
   }
 }
 
@@ -137,11 +136,7 @@
   }
 
   .img-expositores {
-    height: 30vh;
-  }
-
-  .p-expositores {
-    margin-top: 1rem;
+    height: 25vh;
   }
 
   .our_two_box {
@@ -329,10 +324,6 @@
     height: 20vh;
   }
 
-  .p-expositores {
-    margin-top: 1rem;
-  }
-
   .our_two_box {
     margin-bottom: 40px;
   }
@@ -342,6 +333,7 @@
     font-size: 1rem;
     padding: 5px 15px;
   }
+
 }
 
 @media (max-width: 575px) {
@@ -392,13 +384,11 @@
     padding-top: 20px;
   }
   .pa_wi {
-    padding-top: 20px;
+    padding-top: 0px;
     font-size: 19px;
     padding-bottom: 15px;
   }
-  .our_text_box {
-    padding: 1px 5px 52px 5px;
-  }
+  
   .padding_flot {
     font-size: 19px;
     line-height: 36px;
@@ -585,10 +575,6 @@
   font-size: 2rem;
 }
 
-.our_img {
-  margin-bottom: 1rem;
-}
-
 .belgrano-h3 {
   text-align: center;
 }
@@ -598,7 +584,7 @@
 }
 
 .our_text_box {
-  padding: 1px 5px 5px 5px;
+  padding: 1rem 5px 5px 5px;
 }
 
 .imagen-completa {
@@ -618,5 +604,6 @@
 .caja-expositores {
   margin-bottom: 10px;
 }
+
 
 }
