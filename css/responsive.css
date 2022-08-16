@@ -2,7 +2,13 @@
 
 /*------------------------------------------------------------------- 991px x 768px ---------------------------------------------------------------------*/
 
-@media (min-width: 1200px) and (max-width: 1500px) {
+@media (min-width: 1500px) and (max-height: 850px) {
+  .text-bg-comunidad a {
+    margin-bottom: 5px;
+    font-size: 1rem;
+    padding: 10px 20px;
+    margin-bottom: 1vh;
+  }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
