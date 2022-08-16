@@ -422,9 +422,7 @@ button {
 }
 
 /** blog_main section **/
-.blog_main {
-  margin-top: 85px;
-}
+
 .blog_main .span {
   font-size: 17px;
   line-height: 20px;
@@ -540,7 +538,7 @@ ul.padding_left2 li img {
   background: white;
   /* background: linear-gradient(rgba(225, 174, 90, 0.8),rgba(225, 174, 90, 0.8)); */
   background-repeat: no-repeat;
-  padding: 60px 0px;
+  padding: 150px 0px;
   background-position: center;
   background-size: 100% 100%;
   display: flex;
@@ -864,10 +862,6 @@ ul.social_icon li a:hover {
   height: 100%;
 }
 
-.ubicacion {
-  margin-top: 5rem;
-}
-
 .sponsors {
   padding-bottom: 0px;
   margin-top: 5rem;
@@ -912,6 +906,10 @@ figure {
 
 .figura {
   opacity: 0.75;
+}
+
+.ubicacion {
+  margin-top: 5rem;
 }
 
 .h1-octubre {
@@ -978,6 +976,7 @@ figure {
 .imagen-completa {
   padding: 0px;
   /* height: 40vh; */
+  margin-bottom: 60px;
 }
 
 .limite-altura {
