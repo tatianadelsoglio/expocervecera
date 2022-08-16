@@ -435,7 +435,7 @@ button {
   margin-bottom: 90px;
 }
 .our_text_box {
-  padding: 1px 1px 1px 1px;
+  padding: 1rem 1px 0.5rem 1px;
 }
 
 .our_img figure {
@@ -1051,7 +1051,6 @@ figure {
 
 .p-expositores {
   text-align: center;
-  margin-top: 1.5rem;
 }
 
 .octubre-fest {
