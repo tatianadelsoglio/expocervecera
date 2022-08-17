@@ -251,22 +251,25 @@
                       serrana de Villa General Belgrano se viste de gala para
                       celebrar la tradicional Fiesta Nacional de la Cerveza.
                       Este festejo recuerda al Oktoberfest, el ritual pagano
-                      originado en Munich, Alemania, hace cinco siglos atrás. <br/> <br/>
-                      El acontecimiento se celebra a lo largo de once días intensos
-                      en la Villa A esta fiesta tan particular, asisten las
-                      principales marcas de cerveza nacionales y extranjeras,
-                      donde promocionan en diferentes stands sus producciones
-                      Premium. También se suma la gastronomía tradicional
-                      alemana. <br/> <br/>
-                      Por momentos, el festejo se traslada al centro de
-                      la ciudad, donde se realiza el desfile de las
-                      colectividades que tanto aportaron a la formación de la
-                      identidad cosmopolita que posee Villa General Belgrano en
-                      la actualidad. Así, las delegaciones de Alemania,
-                      Dinamarca, Escocia, España, Islas Canarias, Yugoslavia,
-                      Suecia, Portugal, Brasil, Grecia, Italia, Armenia y
-                      Ucrania lucen sus trajes típicos, ampliando notablemente
-                      el espectro cultural de la fiesta.
+                      originado en Munich, Alemania, hace cinco siglos atrás.
+                      <br />
+                      <br />
+                      El acontecimiento se celebra a lo largo de once días
+                      intensos en la Villa A esta fiesta tan particular, asisten
+                      las principales marcas de cerveza nacionales y
+                      extranjeras, donde promocionan en diferentes stands sus
+                      producciones Premium. También se suma la gastronomía
+                      tradicional alemana. <br />
+                      <br />
+                      Por momentos, el festejo se traslada al centro de la
+                      ciudad, donde se realiza el desfile de las colectividades
+                      que tanto aportaron a la formación de la identidad
+                      cosmopolita que posee Villa General Belgrano en la
+                      actualidad. Así, las delegaciones de Alemania, Dinamarca,
+                      Escocia, España, Islas Canarias, Yugoslavia, Suecia,
+                      Portugal, Brasil, Grecia, Italia, Armenia y Ucrania lucen
+                      sus trajes típicos, ampliando notablemente el espectro
+                      cultural de la fiesta.
                     </p>
                   </div>
                 </div>
@@ -400,7 +403,6 @@
     </div>
     <!-- end blog_main -->
 
-    
     <!-- <div id="ubicación" class="blog_main">
       <div class="container"> -->
     <!-- secend section -->
@@ -522,7 +524,15 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <form action="contacto.php" method="post" class="main_form">
+            <div class="alert alert-danger fondo-rojo blanco borde-blanco" id="form_contacto_error" style="display:none;">
+						
+            </div>
+            <form
+              action="contacto.php"
+              method="post"
+              id="form_contacto"
+              class="main_form"
+            >
               <div class="row">
                 <div class="col-md-12">
                   <input
@@ -561,15 +571,42 @@
                   ></textarea>
                 </div>
                 <div class="col-sm-12">
-                  <input
-                    type="submit"
-                    name="enviar"
-                    class="send_btn"
-                    value="Enviar"
-                  />
+                  <a type="submit" onclick="enviar();return false;" name="enviar" class="send_btn"> Enviar </a>
                 </div>
               </div>
             </form>
+            <div class="col-md-12">
+              <div
+                class="justify-content-center"
+                id="form_contacto_loading"
+                style="
+                  height: 100px;
+                  display: none;
+                  text-align: center;
+                  width: 100%;
+                "
+              >
+                <div class="spinner-border" role="status">
+                  <span class="sr-only">Loading...</span>
+                </div>
+                <br />
+                <p>Enviando mensaje...</p>
+                <p></p>
+              </div>
+            </div>
+
+            <div class="col-md-12">
+              <div
+                id="form_contacto_ok"
+                style="display: none"
+              >
+                <h3>Mensaje Enviado</h3>
+                <p>
+                  EL mensaje fue enviado con éxito. Nos contactaremos a la
+                  brevedad.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -623,6 +660,9 @@
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/jquery-3.0.0.min.js"></script>
+
+    <!-- Contactos -->
+    <script src="js/scripts.js?3"></script>
 
     <!-- sidebar -->
     <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
