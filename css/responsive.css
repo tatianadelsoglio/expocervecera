@@ -50,7 +50,7 @@
 @media (min-width: 768px) and (max-width: 991px) {
 
   .navigation.navbar-dark .navbar-nav .nav-link {
-    padding: 0 14px;
+    padding: 0 5px;
   }
   .our_text_box {
     padding: 20px;
@@ -183,9 +183,14 @@
     margin-top: 0px;
   }
   .text-bg h1 {
-    font-size: 50px;
+    font-size: 3rem;
     line-height: 80px;
   }
+
+  .white1 {
+    font-size: 4rem;
+  }
+
   .text-bg {
     padding-right: 0;
   }
@@ -364,7 +369,7 @@
     float: left;
   }
   .text-bg h1 {
-    font-size: 33px;
+    font-size: 2rem;
     line-height: 51px;
   }
   .banner_main {
@@ -391,7 +396,7 @@
   }
 
   .col {
-    flex-grow: 0.5;
+    flex-grow: 0.75;
   }
 
   .padding_top3 {
@@ -434,7 +439,8 @@
     display: inherit !important;
     padding: 0;
     width: 100%;
-    margin-top: -45px;
+    position:absolute;
+    top: -60px;
   }
   .navigation .navbar-collapse {
     background: #e1ae5a;
@@ -619,5 +625,14 @@
   margin-bottom: 10px;
 }
 
+.logo-menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.white1 {
+  font-size: 3rem;
+}
 
 }
