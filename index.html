@@ -529,7 +529,7 @@
             <form
               action="contacto.php"
               method="post"
-              id="form_contacto"
+              id="contact"
               class="main_form"
             >
               <div class="row">
@@ -542,7 +542,7 @@
                     name="nombre"
                   />
                 </div>
-                <div class="col-md-12">
+                <!-- <div class="col-md-12">
                   <input
                     id="telefono"
                     class="form_contril"
@@ -550,7 +550,7 @@
                     type="text"
                     name="telefono"
                   />
-                </div>
+                </div> -->
                 <div class="col-md-12">
                   <input
                     id="email"
@@ -570,7 +570,7 @@
                   ></textarea>
                 </div>
                 <div class="col-sm-12">
-                  <a type="submit" onclick="enviar();return false;" name="enviar" class="send_btn"> Enviar </a>
+                  <button class="send_btn" name="submit" type="submit" id="contact-submit" data-submit="...Enviar">Enviar</button>
                 </div>
               </div>
             </form>
