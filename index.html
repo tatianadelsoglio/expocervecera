@@ -523,24 +523,24 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <div class="alert alert-danger fondo-rojo blanco borde-blanco" id="form_contacto_error" style="display:none;">
+            <!-- <div class="alert alert-danger fondo-rojo blanco borde-blanco" id="form_contacto_error" style="display:none;">
 						
-            </div>
+            </div> -->
             <form
+            id="contact"
               action="contacto.php"
-              method="post"
-              id="contact"
+              method="post"              
               class="main_form"
             >
               <div class="row">
                 <div class="col-md-12">
                   <fieldset>
                     <input
-                      id="nombre"
                       class="form_contril"
                       placeholder="Nombre"
                       type="text"
                       name="nombre"
+                      tabindex="1"
                     />
                   </fieldset>
                 </div>
@@ -556,22 +556,22 @@
                 <div class="col-md-12">
                   <fieldset>
                     <input
-                      id="email"
                       class="form_contril"
                       placeholder="Email"
                       type="text"
                       name="email"
+                      tabindex="2"
                     />
                   </fieldset>
                 </div>
                 <div class="col-md-12">
                   <fieldset>
                     <textarea
-                      id="mensaje"
                       class="textarea"
                       placeholder="Comentario"
                       type="text"
                       name="mensaje"
+                      tabindex="5"
                     ></textarea>
                   </fieldset>
                 </div>
@@ -582,7 +582,8 @@
                 </div>
               </div>
             </form>
-            <div class="col-md-12">
+
+            <!-- <div class="col-md-12">
               <div
                 class="justify-content-center"
                 id="form_contacto_loading"
@@ -613,7 +614,7 @@
                   brevedad.
                 </p>
               </div>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
