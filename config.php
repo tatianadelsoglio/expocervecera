@@ -1,6 +1,6 @@
 <?php
 
-define('MT_SMTP_HOST','smtp.gmail.com');
+define('MT_SMTP_HOST',' c1611514.ferozo.com');
 define('MT_SMTP_PORT',465);
 define('MT_SMTP_AUTH',true);
 define('MT_SMTP_SECURE','ssl');
