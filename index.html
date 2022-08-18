@@ -523,10 +523,10 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <!-- <div class="alert alert-danger fondo-rojo blanco borde-blanco" id="form_contacto_error" style="display:none;">
+            <div class="alert alert-danger fondo-rojo blanco borde-blanco" id="form_contacto_error" style="display:none;">
 						
-            </div> -->
-            <form id="contact" action="contacto.php" method="post" class="main_form" >
+            </div>
+            <form id="contact" method="post" class="main_form" >
               <div class="row">
                 <div class="col-md-12">
                   <fieldset>
@@ -574,13 +574,13 @@
                 </div>
                 <div class="col-sm-12">
                   <fieldset>
-                    <button class="send_btn" name="submit" type="submit" id="contact-submit" data-submit="...Enviar">Enviar</button>
+                    <a class="send_btn" name="submit" type="submit" href="#" onclick="enviar();return false;" id="contact-submit" data-submit="...Enviar">Enviar</a>
                   </fieldset>
                 </div>
               </div>
             </form>
 
-            <!-- <div class="col-md-12">
+            <div class="col-md-12">
               <div
                 class="justify-content-center"
                 id="form_contacto_loading"
@@ -611,7 +611,7 @@
                   brevedad.
                 </p>
               </div>
-            </div> -->
+            </div>
           </div>
         </div>
       </div>
@@ -666,8 +666,8 @@
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/jquery-3.0.0.min.js"></script>
 
-
-
+    <!--script contacto-->
+    <script src="js/scripts.js?3" ></script>
     <!-- sidebar -->
     <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
     <script src="js/custom.js"></script>

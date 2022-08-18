@@ -49,13 +49,11 @@ $mail->AltBody = "{$mensaje} \n\n Formulario de ejemplo By DonWeb"; // Texto sin
 
 $estadoEnvio = $mail->Send(); 
 if($estadoEnvio){
-    echo "El correo fue enviado correctamente.";
+    echo 'OK';
     
 } else {
     echo 'Error: ' . $mail->ErrorInfo;
 }
 
-    header('Location: https://expocervecera.com.ar/index.html');
-    exit;
 
 ?>
