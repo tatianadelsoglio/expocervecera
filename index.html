@@ -526,12 +526,7 @@
             <!-- <div class="alert alert-danger fondo-rojo blanco borde-blanco" id="form_contacto_error" style="display:none;">
 						
             </div> -->
-            <form
-            id="contact"
-              action="contacto.php"
-              method="post"              
-              class="main_form"
-            >
+            <form id="contact" action="contacto.php" method="post" class="main_form" >
               <div class="row">
                 <div class="col-md-12">
                   <fieldset>
@@ -544,7 +539,7 @@
                     />
                   </fieldset>
                 </div>
-                <!-- <div class="col-md-12">
+                <div class="col-md-12">
                   <input
                     id="telefono"
                     class="form_contril"
@@ -552,7 +547,7 @@
                     type="text"
                     name="telefono"
                   />
-                </div> -->
+                </div>
                 <div class="col-md-12">
                   <fieldset>
                     <input
@@ -560,6 +555,7 @@
                       placeholder="Email"
                       type="text"
                       name="email"
+                      id="email"
                       tabindex="2"
                     />
                   </fieldset>
@@ -571,6 +567,7 @@
                       placeholder="Comentario"
                       type="text"
                       name="mensaje"
+                      id="mensaje"
                       tabindex="5"
                     ></textarea>
                   </fieldset>
@@ -669,8 +666,7 @@
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/jquery-3.0.0.min.js"></script>
 
-    <!-- Contactos -->
-    <script src="js/scripts.js?3"></script>
+
 
     <!-- sidebar -->
     <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
