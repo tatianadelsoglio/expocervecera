@@ -680,6 +680,23 @@ ul.padding_left2 li img {
   border-left: 0;
 }
 
+.centrado{
+  text-align: center;
+}
+
+.centrado h3{
+  color: #e1ae5a ;
+  font-size: 30px;
+  line-height: 45px;
+  font-weight: bold;
+}
+
+.centrado p {
+  color: #000;
+  font-size: 17px;
+  line-height: 30px;
+}
+
 .contact .main_form .send_btn {
   font-size: 17px;
   background-color: #3D2500;

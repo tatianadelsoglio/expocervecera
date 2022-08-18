@@ -1,7 +1,7 @@
 function enviar(){
-    var form = $('#form_contacto');
+    var form = $('#contact');
     var url = 'contacto.php';   
-	$('#form_contacto').hide();
+	$('#contact').hide();
 	$('#form_contacto_error').hide();
 	$('#form_contacto_loading').show();
     $.ajax({
@@ -18,7 +18,7 @@ function enviar(){
 				   $('#form_contacto_loading').hide();
 				   $('#form_contacto_error').html(data);
 				   $('#form_contacto_error').show();
-				   $('#form_contacto').show();
+				   $('#contact').show();
 			   }
            }
     });    
