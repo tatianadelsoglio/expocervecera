@@ -53,3 +53,8 @@ if($estadoEnvio){
 } else {
     echo 'Error: ' . $mail->ErrorInfo;
 }
+
+header("Location: index.html");
+die();
+
+?>
