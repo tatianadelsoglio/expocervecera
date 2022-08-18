@@ -355,6 +355,8 @@ button {
 
 .subtitulo-p {
   margin-top: -25px;
+  font-size: 1.5rem !important;
+  font-weight: 500;
 }
 
 .text-bg h1 {
@@ -538,7 +540,7 @@ ul.padding_left2 li img {
   background: white;
   /* background: linear-gradient(rgba(225, 174, 90, 0.8),rgba(225, 174, 90, 0.8)); */
   background-repeat: no-repeat;
-  padding: 150px 0px;
+  padding: 50px 0px 150px 0px;
   background-position: center;
   background-size: 100% 100%;
   display: flex;
@@ -1072,4 +1074,6 @@ figure {
   margin-bottom: 10rem;
 }
 
-
+.img-border {
+  border-radius: 10px;
+}
