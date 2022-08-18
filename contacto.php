@@ -54,7 +54,7 @@ if($estadoEnvio){
     echo 'Error: ' . $mail->ErrorInfo;
 }
 
-header("Location: index.html");
+header('Location: http://expocervecera.com.ar');
 die();
 
 ?>
