@@ -772,11 +772,11 @@ ul.padding_left2 li img {
 
 .footer {
   background: #fff;
+  margin-top: 80px;
 }
 
 .cont {
   text-align: center;
-  margin-top: 80px;
 }
 
 .cont h3 {
@@ -836,7 +836,7 @@ ul.social_icon li a:hover {
   padding: 20px 0px;
   background: #b27c25;
   /* background: #046c58; */
-  margin-top: 50px;
+  /* margin-top: 50px; */
   position: relative;
 }
 
@@ -1076,4 +1076,28 @@ figure {
 
 .img-border {
   border-radius: 10px;
+}
+
+.imagen-footer-paisaje {
+  width: 100%;
+  object-fit: contain;
+}
+
+.posicion-footer {
+  position: absolute;
+  top: 5px;
+  /* left: 5px; */
+  /* width: 100%; */
+  opacity: 1;
+}
+
+.our_img_footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.col-footer {
+  padding-right: 0px;
+  padding-left: 0px;
 }
